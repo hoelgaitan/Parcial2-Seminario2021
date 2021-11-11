@@ -4,6 +4,8 @@ import {CursosComponent} from './cursos/cursos.component';
 import {IonicModule} from '@ionic/angular';
 import {CursoComponent} from './curso/curso.component';
 import {HeaderComponent} from './header/header.component';
+import { CursoAprendizajeComponent } from './curso-aprendizaje/curso-aprendizaje.component';
+import { CursosAprendizajeComponent } from './cursos-aprendizaje/cursos-aprendizaje.component';
 
 
 
@@ -11,7 +13,9 @@ import {HeaderComponent} from './header/header.component';
   declarations: [
     CursosComponent,
     CursoComponent,
-    HeaderComponent
+    HeaderComponent,
+    CursoAprendizajeComponent,
+    CursosAprendizajeComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +24,9 @@ import {HeaderComponent} from './header/header.component';
   exports: [
     CursosComponent,
     CursoComponent,
-    HeaderComponent
+    HeaderComponent,
+    CursoAprendizajeComponent,
+    CursosAprendizajeComponent
   ]
 })
 export class ComponentsModule { }
